@@ -1,0 +1,330 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--texto2);
+    margin: 0 auto;
+ }
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px var(--texto1);
+    height: 80px;
+    background-color: #000;
+}
+
+.logo {
+    border: solid 1px var(--texto1);
+    width: 20%;
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    border: solid 1px var(--texto1);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+}
+
+header nav ul li a{
+    color: #fff;
+}
+
+header .icons{
+    border: solid 1px var(--texto1);
+    width: 25%;
+    gap: 5vw;
+}
+
+li:hover, li a:hover {
+    color: var(--texto1);
+    text-decoration: none;
+}
+
+header:hover {
+    background-color: rgb(109, 20, 182);
+}
+
+header .icons img {
+    height: 35px;
+    margin-right: 20px;
+}
+
+/* Section apresentacao */
+
+main {
+    height: 400px;
+    border: solid 1px var(--texto1);
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao {
+    height:380px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blo1{
+    height:50%;
+    width:20%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color:#686363;
+    margin: 10px 0;
+}
+
+.textH1{
+    color:#9b9595;
+}
+
+.blo2{
+    height:100%;
+    width:17%;
+    border: solid 1px var(--texto1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blo2 img{
+   width: 370px;
+}
+
+.blo3{
+    height:50%;
+    width:20%;
+    text-align: center;
+    border: solid 1px var(--texto1);
+}
+
+
+
+
+
+
+/* Seção de artigos */
+.secArticlo{
+    background:#e7e7e7;
+    height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+.algunsProjetos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artClass{
+    width:1100px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.pj{
+    font-size: 20px;
+    font-family:Verdana;
+    color:#9b9595;    
+}
+
+.art{   
+    width:30%;
+    background:#c7c7c7;
+    height:275px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+figure{
+    width:75%;
+    height:150px;
+}
+
+figure.fig1{
+    background-image: url("../img/behance2.png");
+    background-size: cover;
+}
+
+figure.fig2{
+    background-image: url("../img/github.png");
+    background-size: cover;
+}
+
+figure.fig3{
+    background-image: url("../img/linkedin2.png");
+    background-size: cover;
+}
+
+article span{
+    color:#9b9595;
+    display: inline-block;
+    width: 55%;
+}
+
+h3 a{
+    color:#686363;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#a779ff; 
+}
+
+
+/* Seção sobre */
+#sobre{
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+}
+
+.pjSobre{
+    width: 80%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#sobre h2{
+    color:#9b9595;
+    font-size:26px;
+    text-align: center;
+    justify-content: center;
+    margin:0;
+}
+
+.sob1{
+    width:21%;
+    text-align: center;
+    position: relative;
+    bottom:10px;
+}
+
+.sob1 p{
+    font-size:16px;
+    color:#686363;
+}
+
+.sob2{
+    width:35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+figure.imgSob{
+    height:400px;
+    background-image: url("../img/sobre.png");
+    background-size: cover;
+}
+
+
+/* Seção sobre */
+#contato{
+    height:580px;
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:15px;
+    color:#9b9595;
+}
+
+.bCont1{
+    display: flex;
+    order:1;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:#9b9595;
+}
+
+#contato ul{
+    color:#9b9595;
+    display: flex;
+    flex-direction: column;
+}
+
+#contato ul li img{
+    width:30px;
+    position:relative;
+    bottom:7px;
+}
+
+#contato ul li{
+    padding:15px;
+    width:150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/* Rodapé */
+footer{
+    background: #918a8a;
+    height:51px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dRes{
+  
+    width:50%;
+    display: flex;
+    align-items:center;
+    color:#d1d1d1;
+    border: solid 1px black;
+}
+
+.iFooter{
+    width:49%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+footer ul li{
+  padding: 0 20px;
+  color:#d1d1d1;
+  font-size: 15px;
+}
+
