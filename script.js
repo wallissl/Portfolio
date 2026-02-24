@@ -32,11 +32,11 @@ header.addEventListener('mouseout', ()=>{
    
 });
  
-function linkeAcess(){
+/* function linkeAcess(){
     linke[0].style.color="#a779ff";
 }
 
 linke[0].addEventListener('mouseout', ()=>{
     linke[0].style.color="#686363";
-});
+}); */
 
