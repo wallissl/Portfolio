@@ -4,6 +4,8 @@ Landing page desenvolvida com o objetivo de apresentar meu portfólio pessoal, r
 
 A proposta do projeto é servir como um instrumento inicial de apresentação profissional, podendo ser atualizado e expandido ao longo da minha trajetória na área de tecnologia.
 
+[![](https://img.shields.io/badge/demo-online-green)](https://wallissl.github.io/Portfolio/)
+
 
 ## Objetivo do Projeto
 
