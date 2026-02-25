@@ -3,6 +3,7 @@
     list-style-type: none;
     color: var(--texto2);
     margin: 0 auto;
+    scroll-behavior: smooth;
  }
 
 /* Header */
