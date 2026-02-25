@@ -10,13 +10,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
     height: 80px;
     background-color: #000;
 }
 
 .logo {
-   
     width: 20%;
     display: flex;
 }
@@ -26,7 +24,6 @@ header nav {
     justify-content: space-around;
     align-items: center;
     width: 30%;
-   
 }
 
 header nav ul {
@@ -60,10 +57,9 @@ header .icons img {
     margin-right: 20px;
 }
 
-/* Section apresentacao */
 
+/* Section apresentacao */
 main {
-    height: 382 px;
     display: flex;
     justify-content: center;
 }
@@ -110,14 +106,10 @@ h1 {
 }
 
 
-
-
-
-
 /* Seção de artigos */
 .secArticlo{
     background:#e7e7e7;
-    height:400px;
+    height:360px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -149,7 +141,6 @@ h2{
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: space-around;
 }
 
@@ -194,13 +185,12 @@ article span{
     width: 55%;
 }
 
-/* Seção Projetos */
 
+/* Seção Projetos */
 section.projetos {
     display: flex;
     flex-direction: column;
     width: 90%;
-    border: solid 1px gray;
 }
 
 article.projeto {
@@ -208,12 +198,27 @@ article.projeto {
     justify-content: center;
     flex-wrap: wrap;
     margin: 10px;
+    height: 610px;
+}
+
+.projetoPortfolio {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: var(--texto2);
+    background-color: var(--bg);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.projetoPortfolio h2{
+    color: #fff;
 }
 
 .projeto .projetoTitulo {
     width: 100%;
     height: 30px;
-    border: solid 1px gray;
     margin-bottom: 20px;
     text-align: center;
     color: var(--texto2);
@@ -251,12 +256,13 @@ article.projeto {
 
 .projeto .projetoDescricao ul li{
     margin-bottom: 10px;
-
 }
 
-/* .projetoDescricao h2{
-    margim
-} */
+.projetoDescricaoAPI {
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+}
 
 .projeto .projetoImagem {
     width: 47%;
@@ -265,53 +271,83 @@ article.projeto {
 
 .projeto .projetoImagem h2{
     text-align: center;
+    font-size: 20px;
 }
 
 .projeto .projetoImagem .img{
     height:400px;
     background-image: url("../img/seuFilme.jpg");
     background-size: cover;
+    margin-top: 10px;
 }
 
-.projeto-reverse {
+.projeto.projeto-reverse {
     display: flex;
     flex-direction: row-reverse;
     background-color: var(--blocos1);
+    height: 550px;
+}
+
+.projeto .projetoImagem.im2 .img{
+    height:400px;
+    background-image: url("../img/apiRest.png");
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.projeto.secaoReact{
+    height: 530px;
 }
 
 
-
+.projeto .projetoImagem.im3 .img{
+    height: 400px;
+    background-image: url("../img/reactTimer.png");
+    background-size: contain;
+    background-position: center;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
 
 
 /* Seção sobre */
 #sobre{
     height:100%;
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    background-color: var(--blocos1);   
 }
 
 .pjSobre{
-    width: 80%;
-    height: 65px;
+    width: 100%;
+    height: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    background-color: var(--bg);
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 #sobre h2{
     color:#9b9595;
-    font-size:26px;
+    font-size:36px;
     text-align: center;
     justify-content: center;
     margin:0;
 }
 
 .sob1{
-    width:21%;
+    width:50%;
+    height: 400px;
     text-align: center;
     position: relative;
     bottom:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .sob1 p{
@@ -331,23 +367,32 @@ figure.imgSob{
     background-size: cover;
 }
 
+figure.imgCont{
+    height:400px;
+    background-image: url("../img/contato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
-/* Seção sobre */
+
+
+/* Seção contatos */
 #contato{
-    height:580px;
+    height:550px;
     display: flex;
     flex-wrap: wrap;   
     align-items: center;
-    background-color: #e7e7e7;
 }
 
-.cont{
+.contTitulo{
     width: 100%;
+    height: 40px;
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin-top:15px;
-    color:#9b9595;
+    align-items: center;
+    background-color: var(--bg);
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .bCont1{
@@ -379,41 +424,18 @@ figure.imgSob{
 }
 
 
-
 /* Rodapé */
 footer{
-    background: #918a8a;
-    height:51px;
+    width: 100%;
+    background: #5a5a5a;
+    height:40px;
     display: flex;
-    justify-content: center;
-    
-}
-
-.dRes{
-  
-    width:50%;
-    display: flex;
-    align-items:center;
-    color:#d1d1d1;
-    border: solid 1px black;
-}
-
-.iFooter{
-    width:49%;
-    display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 }
 
-footer ul {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+footer p {
+    color: #c9c9c9;
+    position: relative;
+    left: 37%;
 }
-
-footer ul li{
-  padding: 0 20px;
-  color:#d1d1d1;
-  font-size: 15px;
-}
-
