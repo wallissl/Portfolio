@@ -2,7 +2,7 @@
     text-decoration: none;
     list-style-type: none;
     color: var(--texto2);
-    margin: 0 auto;
+    margin: 0;
     scroll-behavior: smooth;
  }
 

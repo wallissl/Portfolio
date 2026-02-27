@@ -28,3 +28,7 @@ function mouHea(){
 header.addEventListener('mouseout', ()=>{
     header.style.backgroundColor="#000";
 });
+
+const ola = function() {
+
+}

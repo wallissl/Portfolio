@@ -1,0 +1,164 @@
+
+/* RESPONSIVO 0px - 480px */
+
+@media (max-width: 480px) {
+
+    * {
+        margin: 0;        
+    }
+
+    header {
+        flex-direction: row;
+        height: auto;
+        padding: 10px 10px;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    header .logo img {
+        width: 100%;
+
+    }
+
+    header nav {
+        width: 100%;
+        display: none;
+    }
+
+   /*  header nav ul {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+    } */
+
+    header .icons {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Apresentação */
+    .apresentacao {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .blo1, .blo2, .blo3 {
+        width: 90%;
+    }
+
+    .blo2 img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .textH1 {
+        font-size: 18px;
+    }
+
+    /* Artigos */
+    .secArticlo {
+        height: auto;
+        /* padding: 30px 13px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .algunsProjetos .pj{
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .artClass {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .art {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .artClass span {
+        position: relative;
+        bottom: 13px;
+    }
+
+    /* Projetos */
+    article.projeto {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .projeto .projetoDescricao,
+    .projeto .projetoImagem {
+        width: 95%;
+        height: auto;
+    }
+
+    .projeto.projeto-reverse {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .projeto .projetoImagem .img,
+    .projeto .projetoImagem.im2 .img,
+    .projeto .projetoImagem.im3 .img {
+        height: 220px;
+    }
+
+    /* SOBRE */
+    #sobre {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .sob1, .sob2 {
+        width: 90%;
+        height: auto;
+    }
+
+    figure.imgSob {
+        height: 250px;
+    }
+
+    /* CONTATO */
+    #contato {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .bCont1, .bCont2 {
+        width: 90%;
+    }
+
+    figure.imgCont {
+        height: 250px;
+    }
+
+    /* FOOTER */
+    footer {
+        justify-content: center;
+    }
+
+    footer p {
+        left: 0;
+        text-align: center;
+        background-color: red;
+    }
+}
