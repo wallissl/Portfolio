@@ -173,7 +173,28 @@
     bottom: 0px;
     }
 
+    .projeto.secaoReact {
+    height: auto;
+    }
 
+    .projetoImagem.im3 h2{
+        position: relative;
+        top:10px;
+    }
+
+    .projeto .projetoImagem.im3{
+    height: auto;
+    background-image: url("../img/reactTimer.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -25px;
+    }
+
+    .projeto .projetoImagem.im3 .img{
+    height: 260px;
+    
+}
 
 
 
