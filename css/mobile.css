@@ -4,7 +4,8 @@
 @media (max-width: 480px) {
 
     * {
-        margin: 0;        
+        margin: 0;
+        box-sizing: border-box;   
     }
 
     header {
@@ -17,7 +18,6 @@
 
     header .logo img {
         width: 100%;
-
     }
 
     header nav {
@@ -98,28 +98,98 @@
     }
 
     /* Projetos */
-    article.projeto {
-        flex-direction: column;
-        height: auto;
-        gap: 20px;
+
+    section.projetos {
+        border: solid 1px gray;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
-    .projeto .projetoDescricao,
-    .projeto .projetoImagem {
-        width: 95%;
+    .projetoPortfolio {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    article.projeto {
+        flex-direction: column;
+        display: flex;
         height: auto;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+   .projetoTitulo h2 {
+        margin-top: 10px;
+    }
+
+    .projeto .projetoDescricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        border: solid 1px red;
+        text-align: center;
+        padding: 0 10px;
+        height: auto;
+    }
+
+    .projeto .projetoImagem {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+        justify-content: center;
+        border: solid 1px red;
+        justify-content: center;
+    }
+
+     .projeto .projetoImagem a {
+        display: flex;
+        justify-content: center;
     }
 
     .projeto.projeto-reverse {
-        flex-direction: column;
-        height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--blocos1);
+    height: auto;
     }
 
-    .projeto .projetoImagem .img,
+    .projeto .projetoImagem.im2 .img{
+    height:400px;
+    background-image: url("../img/apiRest.png");
+    background-size: cover;
+    margin-top: 10px;
+    }
+
+    .projetoDescricaoAPI {
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    }
+
+
+
+
+
+  
+
+
+
+    
+
+   
+
+ /*    .projeto .projetoImagem .img,
     .projeto .projetoImagem.im2 .img,
     .projeto .projetoImagem.im3 .img {
         height: 220px;
-    }
+    } 
 
     /* SOBRE */
     #sobre {
