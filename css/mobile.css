@@ -1,7 +1,7 @@
 
 /* RESPONSIVO 0px - 480px */
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
 
     * {
         margin: 0;
@@ -188,7 +188,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: -25px;
+    margin-bottom: 1vw;
     }
 
     .projeto .projetoImagem.im3 .img{
@@ -196,23 +196,7 @@
     
 }
 
-
-
-  
-
-
-
-    
-
-   
-
- /*    .projeto .projetoImagem .img,
-    .projeto .projetoImagem.im2 .img,
-    .projeto .projetoImagem.im3 .img {
-        height: 220px;
-    } 
-
-    /* SOBRE */
+   /* SOBRE */
     #sobre {
         flex-direction: column;
         padding-bottom: 30px;
@@ -221,6 +205,12 @@
     .sob1, .sob2 {
         width: 90%;
         height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sob1 h4 {
+        margin: 10px 0;
     }
 
     figure.imgSob {
@@ -231,25 +221,37 @@
     #contato {
         flex-direction: column;
         height: auto;
-        padding-bottom: 30px;
+        width: 100%;
     }
 
-    .bCont1, .bCont2 {
-        width: 90%;
+    .bCont1 h2 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .bCont1 ul{
+        color: #9b9595;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
 
     figure.imgCont {
         height: 250px;
+        display: none;
     }
 
     /* FOOTER */
     footer {
+        display: flex;
         justify-content: center;
     }
 
     footer p {
-        left: 0;
-        text-align: center;
-        background-color: red;
+    position: relative;
+    left: 0;
+    font-size: 13px;    
     }
 }
