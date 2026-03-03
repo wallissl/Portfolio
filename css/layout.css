@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
  }
 
+ 
 /* Header */
 header {
     display: flex;
@@ -35,11 +36,11 @@ header nav ul {
     font-size: 20px;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: #fff;
 }
 
-header .icons{
+header .icons {
     width: 25%;
     gap: 5vw;
 }
@@ -73,7 +74,7 @@ main {
     align-items: center;
 }
 
-.blo1{
+.blo1 {
     width:20%;
     text-align: center;
 }
@@ -84,12 +85,12 @@ h1 {
     margin: 10px 0;
 }
 
-.textH1{
+.textH1 {
     color:#9b9595;
     font-size: 1.3rem;
 }
 
-.blo2{
+.blo2 {
     height:100%;
     width:17%;
     display: flex;
@@ -97,18 +98,18 @@ h1 {
     align-items: center;
 }
 
-.blo2 img{
+.blo2 img {
    width: 370px;
 }
 
-.blo3{
+.blo3 {
     width:20%;
     text-align: center;
 }
 
 
 /* Seção de artigos */
-.secArticlo{
+.secArticlo {
     background:#e7e7e7;
     height:360px;
     display: flex;
