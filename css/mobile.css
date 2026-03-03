@@ -1,19 +1,17 @@
-
 /* RESPONSIVO 0px - 1080px */
 
 @media (max-width: 1024px) {
 
     * {
         margin: 0;
-        box-sizing: border-box;   
+        box-sizing: border-box;
     }
 
     header {
         flex-direction: row;
         height: auto;
         padding: 10px 10px;
-        gap: 5px;
-        justify-content: center;
+        gap: 25px;
     }
 
     header .logo img {
@@ -21,21 +19,15 @@
     }
 
     header nav {
-        width: 100%;
         display: none;
     }
-
-   /*  header nav ul {
-        flex-direction: column;
-        gap: 15px;
-        font-size: 18px;
-    } */
 
     header .icons {
         width: 75%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
     }
+
 
     /* Apresentação */
     .apresentacao {
@@ -50,10 +42,6 @@
         width: 90%;
     }
 
-    .blo2 img {
-        width: 200px;
-    }
-
     h1 {
         font-size: 25px;
     }
@@ -62,10 +50,14 @@
         font-size: 18px;
     }
 
+    .blo2 img {
+        width: 200px;
+    }    
+
+
     /* Artigos */
     .secArticlo {
         height: auto;
-        /* padding: 30px 13px; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -73,7 +65,6 @@
 
     .algunsProjetos .pj{
         text-align: center;
-        font-size: 15px;
         padding: 10px;
     }
 
@@ -94,17 +85,11 @@
 
     .artClass span {
         position: relative;
-        bottom: 13px;
+        bottom: 10px;
     }
+
 
     /* Projetos */
-
-    section.projetos {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
     .projetoPortfolio {
         margin-top: 10px;
         width: 100%;
@@ -116,17 +101,25 @@
         align-items: center;
     }
 
+    section.projetos {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }    
+
     article.projeto {
         flex-direction: column;
         display: flex;
         height: auto;
-        width: 100%;
+        width: 95%;
         justify-content: space-around;
-        margin: 0;
+        margin: 0 auto;
     }
 
-   .projetoTitulo h2 {
-        margin-top: 10px;
+    .projetoTitulo h2{
+        position: relative;
+        top: 15px;
     }
 
     .projeto .projetoDescricao {
@@ -140,63 +133,66 @@
         height: auto;
     }
 
+    .projeto .projetoDescricao p {
+        font-size: 1.2rem;
+        padding: 10px 0;
+    }
+
+    .projeto .projetoDescricao h4 {
+        margin-top: 25px;
+        position: relative;
+        bottom: 10px;
+    }
+
     .projeto .projetoImagem {
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 470px;
         width: 100%;
-        justify-content: center;
         justify-content: center;
     }
 
-     .projeto .projetoImagem a {
+    .projeto .projetoImagem a {
         display: flex;
         justify-content: center;
     }
 
     .projeto.projeto-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: var(--blocos1);
-    height: auto;
-    width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: var(--blocos1);
+        height: auto;
+        width: 100%;
     }
 
-    .projeto .projetoImagem.im2 .img{
+/*     .projeto .projetoImagem.im2 .img{
     height:400px;
     background-image: url("../img/apiRest.png");
     background-size: cover;
     margin-top: 10px;
-    }
+    } */
 
     .projetoDescricaoAPI {
-    display: inline-block;
-    position: relative;
-    bottom: 0px;
+        position: relative;
+        bottom: 5px;
+        line-height: 1.5;
     }
 
     .projeto.secaoReact {
-    height: auto;
+        height: auto;
     }
 
     .projetoImagem.im3 h2{
         position: relative;
-        top:10px;
-    }
-
-    .projeto .projetoImagem.im3{
-    height: auto;
-    background-image: url("../img/reactTimer.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 1vw;
     }
 
     .projeto .projetoImagem.im3 .img{
-    height: 260px;
-    
+        background-image: url("../img/reactTimer.jpg");
+        height:440px;
+        background-size: cover;
+        margin: 10px 0 20px 0;    
 }
+
 
    /* SOBRE */
     #sobre {
@@ -215,9 +211,15 @@
         margin: 10px 0;
     }
 
+    .sob1 p {
+        font-size: 1.2rem;
+        padding: 10px 0;
+    }
+    
     figure.imgSob {
         height: 250px;
     }
+
 
     /* CONTATO */
     #contato {
@@ -227,8 +229,6 @@
     }
 
     .bCont1 h2 {
-        font-size: 16px;
-        margin: 5px 0;
         display: none;
     }
 
@@ -237,14 +237,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15px 0 0 0;
-        padding: 0;
+        margin: 20px 0 0 0;
     }
 
     figure.imgCont {
-        height: 250px;
         display: none;
     }
+
 
     /* FOOTER */
     footer {
@@ -255,6 +254,6 @@
     footer p {
     position: relative;
     left: 0;
-    font-size: 13px;    
+    font-size: 14px;  
     }
 }
