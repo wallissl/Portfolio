@@ -4,6 +4,7 @@
     color: var(--texto2);
     margin: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
  }
 
  
@@ -19,6 +20,7 @@ header {
 .logo {
     width: 20%;
     display: flex;
+    justify-content: flex-end;
 }
 
 header nav {
@@ -117,29 +119,35 @@ h1 {
     justify-content: space-around;
 }
 
-h2{
+/* h2 {
     margin-bottom: 0;
-}
+} */
 
-.algunsProjetos{
+.algunsProjetos {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.artClass{
+.pj {
+    font-size: 20px;
+    font-family:Verdana;
+    color: var(--texto2);    
+}
+
+.artClass {
     width:1100px;
     display: flex;
     justify-content:space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
-.art{   
+.art {   
     width:30%;
     background:#c7c7c7;
     height:275px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -147,53 +155,48 @@ h2{
     align-items: center;
 }
 
-figure{
+figure {
     width:75%;
     height:150px;
 }
 
-.pj{
-    font-size: 20px;
-    font-family:Verdana;
-    color: var(--texto2);    
-}
-
-figure.fig1{
+figure.fig1 {
     background-image: url("../img/gitHub.jpg");
     background-size: cover;    
 }
 
-figure.fig2{
+figure.fig2 {
     background-image: url("../img/linkedin2.png");
     background-size: cover;
 }
 
-figure.fig3{
+figure.fig3 {
     background-image: url("../img/behance2.png");
     background-size: cover;
 }
 
-h3 a{
+h3 a {
     color:#686363;
     text-decoration: none;
 }
 
-a:hover{
-    color:var(--bg); 
+a:hover {
+    color:var(--bg);
+    text-decoration: underline;
 }
 
-article span{
+article span {
     color:#9b9595;
     display: inline-block;
     width: 55%;
 }
 
 
-/* Seção Projetos */
+/* Seção Projetos //////*/
 section.projetos {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 
 article.projeto {
@@ -290,7 +293,8 @@ article.projeto {
     flex-direction: row-reverse;
     background-color: var(--blocos1);
     height: 550px;
-    width: 110%;
+    width: 100%;
+    margin: 0;
 }
 
 .projeto .projetoImagem.im2 .img{
