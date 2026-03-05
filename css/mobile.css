@@ -186,6 +186,12 @@
         position: relative;
     }
 
+    .projetoDescricaoTec {
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    }
+
     .projeto .projetoImagem.im3 .img{
         background-image: url("../img/reactTimer.jpg");
         height:440px;
@@ -198,6 +204,7 @@
     #sobre {
         flex-direction: column;
         padding-bottom: 30px;
+        margin-top: 45px;
     }
 
     .sob1, .sob2 {
@@ -226,6 +233,7 @@
         flex-direction: column;
         height: auto;
         width: 100%;
+        margin-top: 15px;
     }
 
     .bCont1 h2 {
