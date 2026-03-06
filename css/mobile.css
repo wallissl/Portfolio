@@ -9,13 +9,14 @@
 
     header {
         flex-direction: row;
-        height: auto;
         padding: 10px 10px;
         gap: 25px;
     }
 
     header .logo img {
-        width: 100%;
+        width: 100px;
+        position: relative;
+        left: 20px;
     }
 
     header nav {
@@ -26,6 +27,10 @@
         width: 75%;
         display: flex;
         justify-content: flex-end;
+    }
+
+    .icons a:last-child {
+    position: static;
     }
 
 
@@ -164,13 +169,6 @@
         height: auto;
         width: 100%;
     }
-
-/*     .projeto .projetoImagem.im2 .img{
-    height:400px;
-    background-image: url("../img/apiRest.png");
-    background-size: cover;
-    margin-top: 10px;
-    } */
 
     .projetoDescricaoAPI {
         position: relative;

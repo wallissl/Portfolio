@@ -47,13 +47,19 @@ header .icons {
     gap: 5vw;
 }
 
-header li:hover, li a:hover {
-    color: var(--texto1);
-    text-decoration: none;
+.icons a:last-child {
+    position: relative;
+    left: 10px;
 }
 
 header:hover {
     background-color: var(--bg);
+}
+
+
+header li:hover, li a:hover {
+    color: var(--texto1);
+    text-decoration: none;
 }
 
 header .icons img {
@@ -119,10 +125,6 @@ h1 {
     justify-content: space-around;
 }
 
-/* h2 {
-    margin-bottom: 0;
-} */
-
 .algunsProjetos {
     width: 100%;
     display: flex;
@@ -140,14 +142,12 @@ h1 {
     width:1100px;
     display: flex;
     justify-content:space-around;
-    /* flex-wrap: wrap; */
 }
 
 .art {   
     width:30%;
     background:#c7c7c7;
     height:275px;
-    /* margin-left: 5px; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -241,10 +241,6 @@ article.projeto {
     flex-direction: column;
     justify-content: space-evenly;
 }
-
-/* .projeto .projetoDescricao h2 {
-    width: 100%;
-} */
 
 .projeto .projetoDescricao h4 {
     margin-top: 10px;
