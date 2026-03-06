@@ -9,13 +9,14 @@
 
     header {
         flex-direction: row;
-        height: auto;
         padding: 10px 10px;
         gap: 25px;
     }
 
     header .logo img {
-        width: 100%;
+        width: 100px;
+        position: relative;
+        left: 20px;
     }
 
     header nav {
@@ -26,6 +27,10 @@
         width: 75%;
         display: flex;
         justify-content: flex-end;
+    }
+
+    .icons a:last-child {
+    position: static;
     }
 
 
@@ -165,13 +170,6 @@
         width: 100%;
     }
 
-/*     .projeto .projetoImagem.im2 .img{
-    height:400px;
-    background-image: url("../img/apiRest.png");
-    background-size: cover;
-    margin-top: 10px;
-    } */
-
     .projetoDescricaoAPI {
         position: relative;
         bottom: 5px;
@@ -186,18 +184,25 @@
         position: relative;
     }
 
+    .projetoDescricaoTec {
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    }
+
     .projeto .projetoImagem.im3 .img{
         background-image: url("../img/reactTimer.jpg");
         height:440px;
         background-size: cover;
         margin: 10px 0 20px 0;    
-}
+    }
 
 
    /* SOBRE */
     #sobre {
         flex-direction: column;
         padding-bottom: 30px;
+        margin-top: 45px;
     }
 
     .sob1, .sob2 {
@@ -226,6 +231,7 @@
         flex-direction: column;
         height: auto;
         width: 100%;
+        margin-top: 15px;
     }
 
     .bCont1 h2 {
